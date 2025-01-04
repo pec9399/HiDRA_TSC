@@ -21,7 +21,7 @@ if __name__ == '__main__':
         print(f'Running Experiment\n{now} {config.random_drop}')
         experiment = Experiment()
 
-        for i in range(11,config.iterations+1):
+        for i in range(1,config.iterations+1):
             now2 = datetime.now()
             config.random.seed(i)
             experiment.run(i, now)

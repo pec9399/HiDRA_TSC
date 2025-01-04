@@ -35,16 +35,16 @@ num_users = 204
 
 iterations = 20
 episode_time = 5*60*1000
-episode_start = 501
-episode_end = 600
-num_episodes = 600
-initial_instance = 10
-random_drop = 10
+episode_start = 1
+episode_end = 500
+num_episodes = 500
+initial_instance = 20
+random_drop = 20
 train_stop = 500
 timeout = 3000.0
 
 random = r
 
-device = "cuda:1"
+device = "cuda"
 
 model_path = '2024-09-28-19-38-57-1'
